@@ -73,10 +73,8 @@ fi
 
 TMPPREFIX="${TMPDIR%/}/zsh"
 
-# rbenvの環境変数設定
 export PATH="$HOME/.rbenv/bin:$PATH"
 
-# http://takatoshiono.hatenablog.com/entry/2015/01/09/012040
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # MacVimを開く呪文
