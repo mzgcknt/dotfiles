@@ -1,0 +1,1 @@
+/Users/mizoken/.zprezto/runcoms/zprofile
