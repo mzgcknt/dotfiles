@@ -50,7 +50,11 @@ set matchtime=1
 "長い行も表示
 set display=lastline
 
+"アンドゥファイルを作らせない
+set noundofile
 
+"~ファイルを作らせない 
+set nobackup
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 "Yを行末までヤンクに
