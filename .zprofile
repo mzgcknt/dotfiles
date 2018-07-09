@@ -82,3 +82,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # MacVimを開く呪文
 alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
 alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
+
+# gemにてrailsをインストール時にMac本体にインストールさせない
+export PATH="$HOME/.rbenv/shims:$PATH"

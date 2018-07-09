@@ -105,6 +105,8 @@ let g:indent_guides_enable_on_vim_startup = 1
 Plug 'vim-scripts/AnsiEsc.vim'
 " 行末の半角スペースを可視化
 Plug 'bronson/vim-trailing-whitespace'
+" HTHM,CSSの入力補完
+Plug 'mattn/emmet-vim'
 call plug#end()
 "Yを行末までヤンクに
 nnoremap Y y$n
